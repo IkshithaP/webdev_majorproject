@@ -1,0 +1,183 @@
+
+*{
+    color: rgb(7, 1, 1);
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-image:url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405__480.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.search-box{
+ 
+padding:5px 10px 5px 10px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+color:black;
+border-radius: 15px;
+border-color: rgb(27, 119, 137);
+border-width: 5px;
+width:fit-content;
+background-image: linear-gradient(90deg,purple,pink,violet,skyblue);
+background-size: cover;
+}
+button{
+margin: 3px;
+padding:5px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+border-radius: 15px;
+background-color:powderblue;
+width:200px
+}
+/*#weatherContainer{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 1300px;
+    border: 5px solid rgba(97, 95, 95, 0.829);    
+    border-radius: 10px;
+}*/
+
+#iconsContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right:-50%;
+    margin-top:100px;
+    transform: translate(-50%, -50%);
+    height: 460px;
+    width: 1200px;    
+    border: 5px solid rgb(31, 82, 82);    
+    border-radius: 10px;
+    border-color: blueviolet;
+}
+.imgClass{
+    border-color: antiquewhite;
+    border-radius: 20px;
+    border-style: ridge;
+    padding: -50px 0px -50px 0px;
+
+
+}
+
+.icons{
+    display: inline-bock;
+    float: left;
+    height: 420px;
+    width: 190px;
+    margin: 19px;
+    border: 5px solid rgb(48, 47, 47);
+    border-radius: 10px;
+    border-color: rgb(184, 179, 245);
+}
+
+.image{
+    height: 140px;
+    width: 100%;
+}
+
+.imgClass{
+    height: 140px;
+    width: 100%;
+}
+.Humidity{
+    color:white;
+    font-size: 20px;
+    font-weight:300;
+    text-align: center;
+
+}
+.date{
+    color:white;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size:20px;
+}
+.time{
+    color:white;
+    font-style: normal;
+    text-align: center;
+    font-weight: 300;
+    font-size:medium
+
+}
+.windspeed{
+    color:white;
+    font-style: normal;
+    margin-left: 35px;
+    font-weight: 300;
+    font-size:20px;
+    
+
+}
+.description{
+    color:white;
+    font-style: normal;
+    margin-left:12px;
+    font-weight: 400;
+    font-size:medium;
+    text-shadow: 2px 8px rgba(0, 0, 0, 0.2);
+
+}
+.weather{
+    margin: 5px;
+    background-color: rgb(106, 215, 255); 
+    border-radius: 15px;
+    border-color: rgb(179, 0, 255);
+    text-align: center;
+    font-weight: bold;
+    border-color: rgb(0, 200, 255);
+}
+
+.minValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    color:white;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+
+.maxValues{
+    text-align: center;
+    display: inline-block;
+    color:white;
+    border-radius: 5px;
+    font-style:inherit;
+    height: 25px;
+    width: 85px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    font-weight: 300;
+}
+footer{
+    background-image: linear-gradient(180deg,purple,blue,skyblue);
+    background-size: cover;
+    margin-bottom: 0px;
+    margin-top:550px;
+    font-weight: 600;
+    width:1500px;
+    height:45px;
+    font-size: 32px;
+    padding-left:250px;
+    
+
+}
